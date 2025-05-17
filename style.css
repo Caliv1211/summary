@@ -1,22 +1,32 @@
+/* כל האתר */
 body {
-  font-family: "Calibri", sans-serif;
-  background-color: #f7f7f7;
-  color: #333;
+  font-family: Calibri, sans-serif;
+  font-size: 14px;
+  color: black;
   direction: rtl;
   text-align: right;
+  background-color: #f7f7f7;
   padding: 20px;
 }
 
+/* כותרת האתר */
 h1 {
-  color: #0077cc;
+  SumLi by livchen
+  color: orange;
+  font-size: 14px;
+  font-family: Calibri, sans-serif;
+  margin-bottom: 20px;
 }
 
-h2 {
-  color: #005599;
+/* כותרות אחרות (אם יש) */
+h2, h3 {
+  color: #333;
+  font-weight: bold;
 }
 
+/* קישורים */
 a {
-  color: #0066aa;
+  color: #0066cc;
   text-decoration: none;
 }
 
